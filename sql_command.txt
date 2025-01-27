@@ -1,0 +1,25 @@
+create Database money_tracket;
+use money_tracket;
+
+CREATE TABLE register (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE expenses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userid INT NOT NULL,
+    date DATETIME NOT NULL,
+    expensename VARCHAR(100) NOT NULL,
+    amount FLOAT NOT NULL,
+    paymode VARCHAR(50) NOT NULL,
+    category VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE limits (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userid INT NOT NULL,
+    limitss FLOAT NOT NULL
+);
