@@ -1,4 +1,5 @@
-# Money Tracker
+https://m.media-amazon.com/images/I/61JfO8-6-FL._AC_UF1000,1000_QL80_.jpg
+# Expense Tracker
 
 A simple Flask-based web application for managing your personal expenses.
 
